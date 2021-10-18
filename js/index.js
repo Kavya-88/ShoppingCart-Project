@@ -7,7 +7,7 @@ let products = [
         inCart: 0
     },
     {
-        name: 'HPP Probook',
+        name: 'HP Probook',
         tag: 'hpprobook',
         price: 1600,
         inCart: 0
