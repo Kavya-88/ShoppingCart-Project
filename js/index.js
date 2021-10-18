@@ -93,6 +93,7 @@ function displayCart() {
             productContainer.innerHTML += `
             <div class="product"> 
             <ion-icon name="trash-outline"></ion-icon>
+            <a href="#" class="btn btn-danger btn-sm delete">X</a>
             <span>${item.name}</span>
             </div>
             <div class="price">$${item.price},00</div>
@@ -102,6 +103,8 @@ function displayCart() {
             </div>
             `;
         });
+
+        
            
         productContainer.innerHTML += `
         <div class="basketTotalContainer">
